@@ -26,3 +26,110 @@
   .text-light-gray{
 color: #727272;
   }
+  .nav1{
+    justify-content: space-between;
+  }
+  .bg{
+    background-color: rgba(255, 144, 14, 0.1);
+  }
+  .nav1, .banner{
+    max-width: 1440px;
+    margin: 0 auto;
+    align-items: center;
+
+  }
+  .g3{
+    font-weight: 700px;
+    font-size: 3rem;
+  }
+  .banner2{
+
+    max-width: 850px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 50px;
+  
+  }
+  .header2{
+    font-weight: 700px;
+    font-size: 4rem;
+  }
+  .bt{
+    font-weight: 600px;
+    font-size: 1.25rem;
+    padding: 20px 25px;
+    color: white;
+    border-radius: 8px;
+    background-color: rgba(255, 144, 14, 1);
+    border: none;
+
+  }
+  .image{
+    width: 100%;
+  }
+
+ 
+  main{
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+  .section2{
+    align-items: center;
+  }
+
+  .teams{
+
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 24px;
+  }
+
+  main>section{
+    margin-top: 130px;
+  }
+ .features{
+    margin-left: 130px;
+    max-width: 530px;
+ }
+
+ .st1{
+    font-weight: 468px;
+    font-size: 2.5rem;
+ }
+ .st3{
+    color: rgba(255, 144, 14, 1);
+ }
+ .rcf{
+    max-width: 1440px;
+    justify-content: space-between;
+    margin-top: 120px;
+ }
+ .ribon,.projects,.customers,.email{
+    text-align: center;
+    background-color: rgb(197, 214, 214);
+    border-radius: 5px;
+ }
+ @media  screen and (max-width:576px) {
+
+    .nav1,  .unorder, .section2{
+        flex-direction: column;
+    }
+    .teams{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .features{
+        margin-left: 20px;
+  }
+ }
+ @media  screen and (min-width:576px) and (max-width:992px){
+
+    .section2{
+        flex-direction: column;
+    }
+    .features{
+        margin: 50px auto;
+  }
+  .rcf{
+    flex-direction: column;
+  }
+ }
