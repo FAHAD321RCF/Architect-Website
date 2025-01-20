@@ -107,6 +107,7 @@ color: #727272;
  .ribon,.projects,.customers,.email{
     text-align: center;
     background-color: rgb(197, 214, 214);
+    border: 2px solid brown;
     border-radius: 5px;
  }
  @media  screen and (max-width:576px) {
@@ -129,7 +130,14 @@ color: #727272;
     .features{
         margin: 50px auto;
   }
-  .rcf{
-    flex-direction: column;
-  }
  }
+ @media  screen and (max-width:556px){
+    .rcf{
+        flex-direction: column;
+    }
+    .ribon,.projects,.customers,.email{
+        text-align: center;
+        background-color: rgb(176, 33, 102);
+        border-radius: 5px;
+ }
+}
